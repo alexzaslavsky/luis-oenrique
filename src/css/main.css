@@ -1,0 +1,150 @@
+:root {
+    --grey-header: #dedede;
+    --white: #ffffff;
+    --grey: #f6f6f6;
+    --stuff-color: #4d4d4d;
+    --sub-stuff-color: #909090;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background: url("../img/bg.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.main-logo-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--stuff-color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0 10px 0;
+}
+
+.logo-left-side {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    height: 30px;
+}
+
+.logo-left-side-items {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid var(--stuff-color);
+}
+
+.logo-right-side {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: 30px;
+}
+
+.logo-right-side-items {
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid var(--stuff-color);
+}
+
+.main-logo-wrapper a {
+    color: var(--stuff-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.main-links a {
+    color: var(--stuff-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main-photo {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background: url("../img/face.png") right no-repeat;
+}
+
+.main-photo h1 {
+    font-size: 110px;
+    font-weight: bold;
+    color: var(--stuff-color);
+    margin-bottom: 20px;
+}
+
+.main-photo h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--sub-stuff-color);
+    margin-bottom: 20px;
+}
+
+.main-photo .btn-wrapper button {
+    font-family: 'Asap', sans-serif;
+    color: var(--stuff-color);
+    width: 180px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 20px 30px 120px 0;
+    border: 1px solid var(--stuff-color);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.main-photo .btn-wrapper .btn-white {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 20px var(--sub-stuff-color);
+}
+
+.main-photo .btn-wrapper button:hover {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 20px var(--sub-stuff-color);
+}
+
+
+
+
+
+
+
+
+
+
+
